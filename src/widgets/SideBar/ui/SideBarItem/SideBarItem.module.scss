@@ -1,5 +1,6 @@
 .item {
     display: flex;
+    align-items: center;
     width: 100%;
     padding: 15px;
     color: var(--main-black);
@@ -9,6 +10,16 @@
        background: var(--bg-dark-grey-color);
        border-radius: 7px;
     }
+}
+
+.item > a {
+  color: var(--main-black);
+}
+
+.betaLabel {
+    background: rgba(255, 224, 167, 1);
+    border-radius: 5px;
+    padding: 2px 20px;
 }
 
 .link {

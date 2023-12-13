@@ -11,6 +11,7 @@ export default defineConfig({
         react(),
         eslint(),
     ],
+    base: './',
     resolve: {
         alias: [
             { find: '@', replacement: '/src' },

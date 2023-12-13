@@ -60,6 +60,7 @@ export const SideBar = memo(({ className }: SideBarProps) => {
             item={item}
             location={location.pathname}
             key={item.path}
+            isBeta={item.text === 'Базовый файрвол' && true}
         />
     )), [location.pathname]);
 
