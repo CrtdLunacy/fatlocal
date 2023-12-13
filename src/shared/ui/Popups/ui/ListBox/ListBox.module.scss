@@ -1,0 +1,68 @@
+.options {
+    padding: 20px;
+    background: var(--bg-white-color);
+    position: absolute;
+    border-style: none;
+    border-radius: 5px;
+    z-index: 100;
+    -webkit-box-shadow: 0px 7px 23px -5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 7px 23px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 7px 23px -5px rgba(0, 0, 0, 0.6);
+    min-width: 80%;
+    max-height: 600px;
+    overflow-y: scroll;
+}
+
+.checkIcon {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    fill: var(--bg-color);
+}
+
+.label {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btnTrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    color: var(--full-black);
+    background-color: var(--bg-white-color);
+    border-radius: 5px;
+
+    &:hover {
+        color: var(--bg-white-color);
+      background-color: var(--primary-color);
+    }
+}
+
+.level2 {
+  padding-left: 30px;
+}
+
+.level3 {
+  padding-left: 60px;
+}
+
+.hasChildren {
+  cursor: default;
+
+  &:hover {
+    color: var(--full-black);
+    background-color: var(--bg-grey-color);
+  }
+}
+
+.max {
+  width: 100%;
+}

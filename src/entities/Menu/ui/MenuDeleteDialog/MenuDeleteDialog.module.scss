@@ -1,0 +1,62 @@
+.MenuDeleteDialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--full-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.overlayDialog {
+  background: var(--overlay-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: var(--modal-z-index);
+}
+
+.content {
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 12px;
+  background: var(--bg-white-color);
+  z-index: var(--dialog-z-index);
+  transition: 0.3s transform;
+  max-width: 60%;
+}
+
+.container {
+  padding: 30px 50px;
+}
+
+.btnClose {
+  margin-left: auto;
+}
+
+.btnCancel {
+  width: 100%;
+  color: var(--primary-color);
+  border-radius: 60px;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-color: var(--bg-gradient-main);
+  border-color: var(--bg-linear-main);
+}
+
+.btnDelete {
+  width: 100%;
+  color: var(--bg-white-color);
+  border-radius: 60px;
+  padding: 10px 20px;
+  background: var(--bg-gradient-main);
+  background: var(--bg-linear-main);
+}

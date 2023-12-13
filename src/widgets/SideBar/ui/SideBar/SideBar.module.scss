@@ -1,0 +1,35 @@
+.SideBar {
+    height: 100vh;
+    min-width: var(--sidebar-width);
+    background: var(--bg-grey-color);
+    padding: 20px;
+    position: relative;
+    transition: width 0.5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.restBanner {
+    align-self: center;
+    min-height: 135px;
+    position: relative;
+}
+
+.restImg {
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.restText {
+    position: relative;
+    z-index: 200;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.logoIcon {
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}

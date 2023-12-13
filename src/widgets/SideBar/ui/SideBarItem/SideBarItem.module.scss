@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    color: var(--main-black);
+    white-space: nowrap;
+
+    &:hover {
+       background: var(--bg-dark-grey-color);
+       border-radius: 7px;
+    }
+}
+
+.link {
+    font-size: 20px;
+    font: var(--font-m);
+    margin-left: 10px;
+    opacity: 1;
+    transition: 0.5s opacity;
+}
+
+.isPicked {
+  background: var(--bg-dark-grey-color);
+  border-radius: 7px;
+}

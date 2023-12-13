@@ -1,0 +1,26 @@
+.MenuSectionItem {
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  flex-grow: 1;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.selectedText {
+  color: var(--primary-color);
+  font: var(--font-l-bold);
+}
+
+.bottomLine {
+  background-color: var(--secondary-color);
+  height: 1px;
+  width: 100%;
+}
+
+.selected {
+  background: var(--bg-gradient-main);
+  background: var(--bg-linear-main);
+  border-radius: 10px;
+  height: 3px;
+}

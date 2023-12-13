@@ -1,0 +1,22 @@
+.MenuSubgroupItem {
+  display: flex;
+  gap: 10px;
+  padding: 5px 15px;
+  justify-content: center;
+  border-radius: 10px;
+  font: var(--font-family-light);
+  font-size: 14px;
+  color: var(--full-black);
+
+  background: #EAEAEA;
+}
+
+.link {
+  color: var(--full-black);
+}
+
+.selected {
+  color: var(--bg-white-color);
+  background: var(--bg-gradient-main);
+  background: var(--bg-linear-main);
+}

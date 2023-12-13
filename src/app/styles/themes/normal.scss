@@ -1,0 +1,31 @@
+:root {
+  --bg-color: #434945;
+  --full-black: #000000;
+  --main-black: rgba(28, 28, 28, 1);
+  --bg-white-color: #FFFFFF;
+  --bg-main-color: #F8F8F8;
+  --bg-grey-color: rgba(27, 27, 27, 0.03);
+  --bg-dark-grey-color: rgba(85, 44, 86, 0.1);
+  --inverted-bg-color: #f4fbfa;
+  --primary-color: #5B0863;
+  --secondary-color: #9fa2a0;
+  --inverted-primary-color: #9fa2a0;
+  --inverted-secondary-color: #35363b;
+  --bg-gradient-main: rgb(85,44,86);
+  --bg-switcher-gradient-main: rgb(224,93,35);
+  --bg-linear-main: linear-gradient(151deg, rgba(85,44,86,1) 0%, rgba(129,81,95,1) 100%);
+  --bg-switcher-linear-main: linear-gradient(90deg,rgba(224,93,35,1) 15%, rgba(91,8,99,1) 100%);
+
+  // skeleton
+  --skeleton-color: #615d6b;
+  --skeleton-shadow: #3a3a3a;
+
+  // card
+  --card-bg: #6d7370;
+
+  //bg-sidebar
+  --bg-sidebar-color: #212222;
+
+  //dots
+  --dots-color: #FF6108;
+}

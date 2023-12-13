@@ -1,0 +1,16 @@
+.ProfilePage {
+  margin: 40px 40px 40px 20px;
+}
+
+.profileImg {
+  object-fit: cover;
+}
+
+.btnSave {
+  width: 100%;
+  color: var(--bg-white-color);
+  border-radius: 60px;
+  padding: 10px 20px;
+  background: var(--bg-gradient-main);
+  background: var(--bg-linear-main);
+}
