@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite --open",
-    "build:prod": "vite --env mode=production",
+    "build:prod": "vite --mode=production",
     "build:dev": "vite --env mode=development",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
