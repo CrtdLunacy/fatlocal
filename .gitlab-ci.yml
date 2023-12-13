@@ -11,7 +11,7 @@ demo:
      - mkdir -p /opt/fatmetal/front/
   script:
     - npm install
-    - npm run build:dev
+    - npm run build:prod
     - ls -l
     - rm -Rf /opt/fatmetal/front/*
     - cp -R dist/* /opt/fatmetal/front/
