@@ -1,0 +1,32 @@
+stages:
+  - deploy
+
+demo:
+  stage: deploy
+  image: node:18
+  tags:
+    - dev
+    - runner
+  before_script:
+#    - whoami
+#    - ls /usr/bin | grep docker || echo "Docker not found"
+#    - apt-get update -y
+#    - apt-get install -y docker.io
+#    - dockerd &
+#    - sleep 10
+     - mkdir -p /opt/fatmetal/front/
+  script:
+   # - cat $env_demo > .env
+ #   - docker run --rm -v "$(pwd):/root/build" -w /root/build node:18 npm install
+ #   - docker run --rm -v "$(pwd):/root/build" -w /root/build node:18 npm run build
+    - npm install
+    - npm run build:prod
+#    - ls -l
+    - rm -Rf /opt/fatmetal/front/*
+    - cp -R build/* /opt/fatmetal/front/
+    - find /opt/fatmetal
+
+  only:
+    refs:
+      - main
+  when: manual
