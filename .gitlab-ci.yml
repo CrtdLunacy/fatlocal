@@ -20,7 +20,7 @@ demo:
  #   - docker run --rm -v "$(pwd):/root/build" -w /root/build node:18 npm install
  #   - docker run --rm -v "$(pwd):/root/build" -w /root/build node:18 npm run build
     - npm install
-    - npm run build
+    - npm start
 #    - ls -l
     - rm -Rf /opt/fatmetal/front/*
     - cp -R build/* /opt/fatmetal/front/
